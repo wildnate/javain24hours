@@ -5,13 +5,16 @@
  */
 package javain24hours;
 
-public class Javain24hours {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+/**
+ *
+ * @author bulletmagnet
+ */
+public class timeDisplay extends timeGet {
+    
+    public static void main (String[] args){
+        timeGet time = new timeGet();
+        
+        time.returnTime(1, 1, 1);
     }
     
 }
